@@ -7,9 +7,8 @@
 <body>
   <div class="myContainer">
     <form id="myForm">
-<label for='myform'
 
-<label for="firstname">First Name:</label>
+      <label for="firstname">First Name:</label>
       <input type="text" id="firstname" required><br>
 
       <label for="lastname">Last Name:</label>
@@ -25,17 +24,17 @@
       <input type="date" id="dob"><br>
       <span id="doberror" class="error"></span>
 
-  <p>Gender:</p>
+      <p>Gender:</p>
       <input type="radio" name="gender" id="male" value="Male" required>
-      <label type="radio" for="male">Male </label>
-      <input  name="gender" id="female" value="Female">
-      <label type="radio" for="female">Female</label><br>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="Female">
+      <label for="female">Female</label><br>
 
       <label for="address">Address:</label>
       <textarea id="address" rows="3"></textarea><br>
       <span id="addresserror" class="error"></span><br>
 
-<p>Education Details:</p>
+      <p>Education Details:</p>
       <label for="tenth">10th Details:</label>
       <input type="text" id="tenth" required><br>
 
@@ -50,7 +49,7 @@
       <input type="email" id="email"><br>
       <span id="emailerror" class="error"></span><br>
 
-<label for="photo">Upload Photo:</label>
+      <label for="photo">Upload Photo:</label>
       <input type="file" id="photo" accept="image/*" required><br>
 
       <label for="signature">Upload Signature:</label>
@@ -60,6 +59,6 @@
       <button type="button" onclick="resetForm()">Reset</button>
     </form>
   </div>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
